@@ -164,7 +164,7 @@ final class WheelView extends View {
     public void rotateWheelToTarget(int target) {
 
         float wheelItemCenter = 270 - getAngleOfIndexTarget(target) + (360 / mWheelItems.size()) / 2;
-        int DEFAULT_ROTATION_TIME = 9000;
+        int DEFAULT_ROTATION_TIME = 1500;
         animate().setInterpolator(new DecelerateInterpolator())
                 .setDuration(DEFAULT_ROTATION_TIME)
                 .rotation((360 * 15) + wheelItemCenter)

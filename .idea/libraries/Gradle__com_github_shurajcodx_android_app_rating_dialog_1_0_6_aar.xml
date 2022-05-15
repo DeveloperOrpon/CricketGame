@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.shurajcodx:android-app-rating-dialog:1.0.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a104da0e2eb07cba9be2d290881be8f9/android-app-rating-dialog-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a104da0e2eb07cba9be2d290881be8f9/android-app-rating-dialog-1.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a104da0e2eb07cba9be2d290881be8f9/android-app-rating-dialog-1.0.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.shurajcodx/android-app-rating-dialog/1.0.6/923b9b51178ab68be99c05806bcf7dd8713e7d65/android-app-rating-dialog-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

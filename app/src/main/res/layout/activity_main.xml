@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:LuckyWheel="http://schemas.android.com/apk/res-auto"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCCCFF"
     tools:context="com.bluehomestudio.luckywheeldemo.MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        />
+
+    <ImageView
+        android:id="@+id/backbtn"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11.3dp"
+        android:background="@drawable/back"
+        android:backgroundTint="@color/colorPrimary"
+        android:gravity="top" />
     <com.bluehomestudio.luckywheel.LuckyWheel
         android:id="@+id/lwv"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="10dp"
         LuckyWheel:background_color="@color/colorPrimary" />
 
     <Button
@@ -19,9 +36,44 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_margin="10dp"
-        android:background="#00E6FF"
-        android:textColor="@android:color/white"
-        android:text="@string/start"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/start" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/marks"
+            android:layout_width="220dp"
+            android:layout_height="80dp"
+            android:text="Result :0"
+            android:textColor="#ff22"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="220dp"
+            android:layout_height="80dp"
+            android:text="Wicket :0"
+            android:textColor="#ff22"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/over"
+            android:layout_width="220dp"
+            android:layout_height="80dp"
+            android:text="Over :0.0"
+            android:textColor="#2252FF"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

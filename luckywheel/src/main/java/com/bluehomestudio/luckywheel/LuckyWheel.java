@@ -95,7 +95,7 @@ public class LuckyWheel extends FrameLayout implements View.OnTouchListener, OnR
         wheelView.resetRotationLocationToZeroAngle(number);
     }
 
-    final int SWIPE_DISTANCE_THRESHOLD = 100;
+    final int SWIPE_DISTANCE_THRESHOLD = 150;
     float x1, x2, y1, y2, dx, dy;
 
     @Override
